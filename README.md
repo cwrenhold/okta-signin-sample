@@ -25,3 +25,9 @@ I have specifically not included the credentials for Okta for obvious reasons, t
 ## Notes
 
 This has been configured to use port 30469 for HTTP, and port 44345 for SSL. If you configure a new Okta application for this, ensure that the correct ports are set in the callback URLs. You can change these ports by updating the `launchSettings.json` file, under Properties.
+
+## Claims visible after configuration
+
+After following the guide and logging in, here are the claims which are returned, values have been hidden in case anything is sensitive.
+
+![Claims returned screenshot](claims%20returned.png)
