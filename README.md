@@ -31,3 +31,11 @@ This has been configured to use port 30469 for HTTP, and port 44345 for SSL. If 
 After following the guide and logging in, here are the claims which are returned, values have been hidden in case anything is sensitive.
 
 ![Claims returned screenshot](claims%20returned.png)
+
+## Thoughts on Okta
+
+* Very simple to follow guide, no issues at all with this
+* Admin console is accessed via the same account that is used within the application as opposed to distinct users, which seems a little odd
+* Login form is handled by Okta, and the admin console provides a way to modify the HTML on this page
+* Hooks can be added to communicate with an API if required
+* Provides a "HealthInsight" report which is a report of what policies have not been enabled which may reduce security, or configurations which increase risk, e.g. "Authenticators are optional", or "More than 75% of admins have super admin privileges"
